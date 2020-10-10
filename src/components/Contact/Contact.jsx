@@ -21,6 +21,7 @@ const Contact = () => {
               className="contact-box"
               netlify
               data-netlify-recaptcha="true"
+              data-netlify="true"
             >
               <div className="content">
                 {/* <h2>Let's Work</h2> */}
