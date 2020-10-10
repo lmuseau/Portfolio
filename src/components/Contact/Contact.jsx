@@ -16,13 +16,14 @@ const Contact = () => {
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
             <form
-              method="POST"
+              method="post"
               name="contact"
               className="contact-box"
-              netlify
               data-netlify-recaptcha="true"
               data-netlify="true"
             >
+              {/* You still need to add the hidden input with the form name to your JSX form */}
+              <input type="hidden" name="form-name" value="contact" />
               <div className="content">
                 {/* <h2>Let's Work</h2> */}
                 <input
