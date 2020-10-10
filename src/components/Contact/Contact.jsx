@@ -45,15 +45,12 @@ const Contact = () => {
                   className="field area"
                   placeholder="Message"
                 />
-                <div className="field">
-                  <div data-netlify-recaptcha="true" />
-                </div>
-                <input type="submit" value="Send" className="btn" />
+                <button type="submit" value="Send" className="btn">
+                  Send
+                </button>
               </div>
               <div className="">
-                <p className="contact-wrapper__text">
-                  {cta || 'Would you like to work with me? Awesome!'}
-                </p>
+                <p className="contact-wrapper__text">{cta}</p>
               </div>
             </form>
           </div>
