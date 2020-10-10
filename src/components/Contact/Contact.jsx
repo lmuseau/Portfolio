@@ -15,7 +15,13 @@ const Contact = () => {
         <Title title="Contact" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
-            <form action="POST" data-netlify="true" name="contact" className="contact-box">
+            <form
+              method="POST"
+              name="contact"
+              className="contact-box"
+              netlify
+              data-netlify-recaptcha="true"
+            >
               <div className="content">
                 {/* <h2>Let's Work</h2> */}
                 <input
@@ -45,7 +51,8 @@ const Contact = () => {
                   className="field area"
                   placeholder="Message"
                 />
-                <button type="submit" value="Send" className="btn">
+                <div data-netlify-recaptcha="true" />
+                <button type="submit" className="btn">
                   Send
                 </button>
               </div>
