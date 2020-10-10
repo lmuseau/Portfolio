@@ -17,14 +17,14 @@ const Contact = () => {
           <div className="contact-wrapper">
             <div className="contact-box">
               <form
-                name="contact1"
+                name="contact2"
                 method="post"
                 data-netlify="true"
                 onSubmit="submit"
                 data-netlify-recaptcha="true"
               >
                 {/* You still need to add the hidden input with the form name to your JSX form */}
-                <input type="hidden" name="form-name" value="contact1" />
+                <input type="hidden" name="form-name" value="contact2" />
                 <div className="content">
                   <input
                     name="name"
