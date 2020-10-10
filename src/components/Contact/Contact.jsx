@@ -66,6 +66,7 @@ const Contact = () => {
                     value={formState.name}
                     className="field"
                     placeholder="Your Name"
+                    required
                   />
                   <input
                     name="email"
@@ -75,6 +76,7 @@ const Contact = () => {
                     value={formState.email}
                     className="field"
                     placeholder="Your Email"
+                    required
                   />
                   <input
                     name="phone"
@@ -91,10 +93,11 @@ const Contact = () => {
                     onChange={handleChange}
                     value={formState.message}
                     className="field area"
-                    placeholder="Message"
+                    placeholder="How can I help you?"
+                    required
                   />
                   <div data-netlify-recaptcha="true" />
-                  <button type="submit" className="btn">
+                  <button type="submit" className="submit-btn">
                     Send
                   </button>
                 </div>
