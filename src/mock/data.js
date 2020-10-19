@@ -34,7 +34,7 @@ export const projectsData = [
     img: 'fa-screenshot.png',
     title: 'St. Robert First Assembly of God Website',
     info: 'This is a church website built using ReactJS. It is currently in development.',
-    info2: 'Back end technologies will be implemented soon.',
+    info2: 'Uses NodeJS and nodemailer to handle emailing contact information',
     url: 'https://quizzical-williams-74d0e2.netlify.app/',
     repo: 'https://github.com/lmuseau/st-robert-first-assembly', // if no repo, the button will not show up
   },
