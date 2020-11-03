@@ -47,6 +47,17 @@ export const projectsData = [
     url: 'https://musing-jepsen-3c242a.netlify.app',
     repo: 'https://github.com/lmuseau/snake-game', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'softrams-racing.png',
+    title: 'Softrams Racing App',
+    info:
+      'This project is a member management app built using Angular 8 and NodeJS backend. Will be deployed soon.',
+    info2:
+      'Technologies used includes Express, Angular CLI, and json-server for the full fake REST API.',
+    // url: '',
+    repo: 'https://github.com/lmuseau/softrams-racing', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
